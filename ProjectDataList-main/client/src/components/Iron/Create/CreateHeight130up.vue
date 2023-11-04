@@ -10,7 +10,7 @@
                     <input type="text" placeholder="ความพร้อมใช้งาน" v-model="height130up.availability">
                     <input type="text" placeholder="ความจุ *" v-model="height130up.capacity" required>
                     <button type="submit">Create</button>
-                    <button v-on:click="navigateTo('/electroluxs')">กลับ</button>
+                    <button v-on:click="navigateTo('/height130ups')">กลับ</button>
                 </form>
             </div>
         </div>

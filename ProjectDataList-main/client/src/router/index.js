@@ -10,17 +10,17 @@ import height130upCreate from '@/components/Iron/Create/CreateHeight130up'
 import height130upEdit from '@/components/Iron/Edit/EditHeight130up'
 import height130upShow from '@/components/Iron/Show/ShowHeight130up'
 
-// Philips
-import PhilipsIndex from '@/components/Iron/Index/IndexPhilips'
-import PhilipsCreate from '@/components/Iron/Create/CreatePhilips'
-import PhilipsEdit from '@/components/Iron/Edit/EditPhilips'
-import PhilipsShow from '@/components/Iron/Show/ShowPhilips'
+// height110up
+import height110upIndex from '@/components/Iron/Index/IndexHeight110up'
+import height110upCreate from '@/components/Iron/Create/CreateHeight110up'
+import height110upEdit from '@/components/Iron/Edit/EditHeight110up'
+import height110upShow from '@/components/Iron/Show/ShowHeight110up'
 
-// Tefal
-import TefalIndex from '@/components/Iron/Index/IndexTefal'
-import TefalCreate from '@/components/Iron/Create/CreateTefal'
-import TefalEdit from '@/components/Iron/Edit/EditTefal'
-import TefalShow from '@/components/Iron/Show/ShowTefal'
+// height90up
+import height90upIndex from '@/components/Iron/Index/IndexHeight90up'
+import height90upCreate from '@/components/Iron/Create/CreateHeight90up'
+import height90upEdit from '@/components/Iron/Edit/EditHeight90up'
+import height90upShow from '@/components/Iron/Show/ShowHeight90up'
 
 // height155up
 import height155upIndex from '@/components/Iron/Index/IndexHeight155up'
@@ -61,48 +61,48 @@ export default new Router({
       component: height130upShow
     },
 
-    // Philips
+    // Height110up
     {
-      path: '/philipss',
-      name: 'philipss',
-      component: PhilipsIndex
+      path: '/height110ups',
+      name: 'height110ups',
+      component: height110upIndex
     },
     {
-      path: '/philips/create',
-      name: 'philips-create',
-      component: PhilipsCreate
+      path: '/height110up/create',
+      name: 'height110up-create',
+      component: height110upCreate
     },
     {
-      path: '/philips/edit/:philipsId',
-      name: 'philips-edit',
-      component: PhilipsEdit
+      path: '/height110up/edit/:height110upId',
+      name: 'height110up-edit',
+      component: height110upEdit
     },
     {
-      path: '/philips/:philipsId',
-      name: 'philips',
-      component: PhilipsShow
+      path: '/height110up/:height110upId',
+      name: 'height110up',
+      component: height110upShow
     },
 
-    // Tefal
+    // Height90up
     {
-      path: '/tefals',
-      name: 'tefals',
-      component: TefalIndex
+      path: '/height90ups',
+      name: 'height90ups',
+      component: height90upIndex
     },
     {
-      path: '/tefal/create',
-      name: 'tefal-create',
-      component: TefalCreate
+      path: '/height90up/create',
+      name: 'height90up-create',
+      component: height90upCreate
     },
     {
-      path: '/tefal/edit/:tefalId',
-      name: 'tefal-edit',
-      component: TefalEdit
+      path: '/height90up/edit/:height90upId',
+      name: 'height90up-edit',
+      component: height90upEdit
     },
     {
-      path: '/tefal/:tefalId',
-      name: 'tefal',
-      component: TefalShow
+      path: '/height90up/:height90upId',
+      name: 'height90up',
+      component: height90upShow
     },
 
     // height155up

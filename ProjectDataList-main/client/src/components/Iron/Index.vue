@@ -3,10 +3,10 @@
         <h1><span>Iron All brands</span></h1>
         <ul>
             <li style="--clr: #00ade1;">
-            <a href="#/tefals" data-text="TEFAI">TEFAI</a>
+            <a href="#/height90ups" data-text="height90up">height90up</a>
             </li>
             <li style="--clr: #ff6493;">
-            <a href="#/philipss" data-text="PHILIPS">PHILIPS</a>
+            <a href="#/height110ups" data-text="height110up">height110up</a>
             </li>
             <li style="--clr: #ffdd1c;">
             <a href="#/height155ups" data-text="height155up">height155up</a>

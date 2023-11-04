@@ -1,6 +1,6 @@
 const height130upController = require('./controllers/height130upController')
-const PhilipsController = require('./controllers/PhilipsController')
-const TefalController = require('./controllers/TefalController')
+const height110upController = require('./controllers/height110upController')
+const height90upController = require('./controllers/height90upController')
 const height155upController = require('./controllers/height155upController')
 
 module.exports = (app) => {
@@ -18,33 +18,33 @@ module.exports = (app) => {
     app.get('/height130up/:height130upId', height130upController.show)
 
     
-    // Philips
-    // get all philips
-    app.get('/philipss', PhilipsController.index)
+    // height110up
+    // get all height110up
+    app.get('/height110ups', height110upController.index)
     
-    // create philips
-    app.post('/philips', PhilipsController.create)
+    // create height110up
+    app.post('/height110up', height110upController.create)
     
-    // edit philips, suspend, active
-    app.put('/philips/:philipsId', PhilipsController.put)
+    // edit height110up, suspend, active
+    app.put('/height110up/:height110upId', height110upController.put)
 
-    // delete philips
-    app.delete('/philips/:philipsId', PhilipsController.delete)
+    // delete height110up
+    app.delete('/height110up/:height110upId', height110upController.delete)
     
-    // get philips by id
-    app.get('/philips/:philipsId', PhilipsController.show)
+    // get height110up by id
+    app.get('/height110up/:height110upId', height110upController.show)
 
     
-    // Tefal
-    app.get('/tefals', TefalController.index)
+    // height90up
+    app.get('/height90ups', height90upController.index)
     
-    app.post('/tefal', TefalController.create)
+    app.post('/height90up', height90upController.create) 
     
-    app.put('/tefal/:tefalId', TefalController.put)
+    app.put('/height90up/:height90upId', height90upController.put)
     
-    app.delete('/tefal/:tefalId', TefalController.delete)
+    app.delete('/height90up/:height90upId', height90upController.delete)
     
-    app.get('/tefal/:tefalId', TefalController.show)
+    app.get('/height90up/:height90upId', height90upController.show)
 
 
     // height155up
